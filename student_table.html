@@ -1,0 +1,116 @@
+<!--
+abdul wadood syed
+25-6561
+cy-C
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Records</title>
+</head>
+<body>
+    <h1 style="text-align:center;">Student Information Table</h1>
+    <table 
+        style="width:80%; margin:auto; border:2px solid black; border-collapse:collapse; text-align:center;"
+    >
+        <tr>
+            <th style="background-color:#4CAF50 ; color:rgb(246, 245, 245); padding:10px; font-size:18px; border:1px solid black;">
+                Student ID
+            </th>
+            <th style="background-color:#4CAF50; color:white; padding:10px; font-size:18px; border:1px solid black;">
+                Name
+            </th>
+            <th style="background-color:#4CAF50; color:white; padding:10px; font-size:18px; border:1px solid black;">
+                Age
+            </th>
+            <th style="background-color:#4CAF50; color:white; padding:10px; font-size:18px; border:1px solid black;">
+                Gender
+            </th>
+            <th style="background-color:#4CAF50; color:white; padding:10px; font-size:18px; border:1px solid black;">
+                Marks
+            </th>
+            <th style="background-color:#4CAF50; color:white; padding:10px; font-size:18px; border:1px solid black;">
+                City
+            </th>
+        </tr>
+        <tr>
+            <td style="padding:8px; border:1px solid black;">25I-6561</td>
+            <td style="padding:8px; border:1px solid black;">Abdul Wadood Syed</td>
+            <td style="padding:8px; border:1px solid black;">19</td>
+            <td style="padding:8px; border:1px solid black;">Male</td>
+            <td style="padding:8px; border:1px solid black;">88</td>
+            <td style="padding:8px; border:1px solid black;">Islamabad</td>
+        </tr>
+        <tr>
+            <td style="padding:8px; border:1px solid black;">25i-1122</td>
+            <td style="padding:8px; border:1px solid black;">Hamza </td>
+            <td style="padding:8px; border:1px solid black;">19</td>
+            <td style="padding:8px; border:1px solid black;">Male</td>
+            <td style="padding:8px; border:1px solid black;">73</td>
+            <td style="padding:8px; border:1px solid black;">Rawalpindi</td>
+        </tr>
+        <tr>
+            <td style="padding:8px; border:1px solid black;">25i-6601</td>
+            <td style="padding:8px; border:1px solid black;">saad</td>
+            <td style="padding:8px; border:1px solid black;">19</td>
+            <td style="padding:8px; border:1px solid black;">male</td>
+            <td style="padding:8px; border:1px solid black;">86</td>
+            <td style="padding:8px; border:1px solid black;">rawalpindi</td>
+        </tr>
+        <tr>
+            <td style="padding:8px; border:1px solid black;">25i-2005</td>
+            <td style="padding:8px; border:1px solid black;">taaha zafar</td>
+            <td style="padding:8px; border:1px solid black;">19</td>
+            <td style="padding:8px; border:1px solid black;">Male</td>
+            <td style="padding:8px; border:1px solid black;">88</td>
+            <td style="padding:8px; border:1px solid black;">Multan</td>
+        </tr>
+        <tr>
+            <td style="padding:8px; border:1px solid black;">25i-0911</td>
+            <td style="padding:8px; border:1px solid black;">Arif Hussain</td>
+            <td style="padding:8px; border:1px solid black;">19</td>
+            <td style="padding:8px; border:1px solid black;">male</td>
+            <td style="padding:8px; border:1px solid black;">91</td>
+            <td style="padding:8px; border:1px solid black;">layyah</td>
+        </tr>
+        <tr>
+            <td style="padding:8px; border:1px solid black;">25i-2110</td>
+            <td style="padding:8px; border:1px solid black;">muneeb rizwan</td>
+            <td style="padding:8px; border:1px solid black;">19</td>
+            <td style="padding:8px; border:1px solid black;">Male</td>
+            <td style="padding:8px; border:1px solid black;">99</td>
+            <td style="padding:8px; border:1px solid black;">lahore</td>
+        </tr>
+    </table>
+    <br><br>
+    <div style="text-align:center;">
+        showStudentInfo
+        <button onclick="showStudentInfo()" 
+                style="padding:10px 20px; font-size:16px;">
+        </button>
+        showLabInfo
+        <button onclick="showLabInfo()" 
+                style="padding:10px 20px; font-size:16px;">
+        </button>
+        showcoustomgreeting
+        <button onclick="customGreeting()" 
+                style="padding:10px 20px; font-size:16px;">
+        </button>
+    </div>
+    <script>
+        function showStudentInfo() {
+            console.log("Displaying student information...");
+            window.alert("This is a webpage that  displays student records in an HTML table.");
+        }
+        function showLabInfo() {
+            console.log("Displaying lab information...");
+            window.alert("Lab 11 covers HTML, CSS, and a basic introduction to JavaScript.");
+        }
+        function customGreeting() {
+            console.log("Custom greeting shown.");
+            window.alert("hi! Abdul Wadood Syed");
+        }
+    </script>
+
+</body>
+</html>
